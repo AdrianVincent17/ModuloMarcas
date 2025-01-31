@@ -1,4 +1,7 @@
 
+
+
+
 //VARIABLES
 //Una variable es un contenedor de informacion
 
