@@ -7,10 +7,9 @@
     <script src="Ejercicio 12.js"></script>
 </head>
 <body>
-    <label for="name">Dime tu nombre</label>
-    <input type="text" id="name">
+    <input type="text" id="name" placeholder="Ingresa tu nombre...">
+    <button onclick="saludar(document.getElementById('name').value)">Saludar</button>
+    <p id="nombrecito"></p>
 
-    <button onclick="saludar()">Saludo</button>
-    <p id="demo"></p>
 </body>
 </html>
