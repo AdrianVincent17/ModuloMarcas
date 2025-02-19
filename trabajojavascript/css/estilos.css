@@ -1,0 +1,92 @@
+body 
+{
+    background-image: url(../media/fondo2.jpg); 
+    background-size: cover;
+    background-attachment: fixed; 
+    margin: 0; 
+    
+}
+
+@keyframes cartasaparicion {
+    from { opacity: 0; transform: scale(0.7); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+#pedidico:hover, #plantadico:hover {
+    scale: 1.2;
+    transition-duration: 0.5s;
+}
+
+
+#cartastapete img {
+    animation: cartasaparicion 0.4s;
+    margin-left: 5px;
+    margin-right: 5px; 
+    box-shadow: 0 4px 8px #0000004d; 
+}
+button {
+    padding: 0;
+    margin: 10px; 
+    width: 100px; 
+    height: 50px; 
+    border-radius: 200px;
+    transition-duration: 0.5s;
+}
+
+#pedidico{
+   background-color: #4dff00;
+}
+
+#pedidico:disabled {
+    opacity: 30%;
+    cursor: not-allowed;  
+}
+
+#plantadico {
+    background-color: #ff0011;
+}
+
+#plantadico:disabled {
+    opacity: 30%;
+    cursor: not-allowed;
+}
+
+header
+{
+
+    font-family: 'Saiyan Sans', Arial, sans-serif;
+    font-size: 28pt;
+    color: #ffea00;
+    text-align: center;
+    letter-spacing: 5pt;
+    line-height: 1pt;
+    padding: 10px 0;
+    text-shadow: 3px 3px 6px #000000b3; 
+
+}
+
+#resultusuarito, #resultmaquinita {
+    font-family: 'Saiyan Sans', Arial, sans-serif;
+    color: #ffea00;
+    font-size: 18pt; 
+    margin: 20px 0;
+    padding: 10px;
+    display: inline-block;
+}
+#jueguecico {
+
+    text-align: center;
+    padding: 0px;
+    
+}
+
+#mensaje {
+    font-family: 'Saiyan Sans', Arial, sans-serif;
+    font-weight: lighter;
+    margin-top: -20px;
+    color: #ffea00;
+    font-size: 25pt; 
+    text-align: center;
+    max-width: 100%;
+
+}
