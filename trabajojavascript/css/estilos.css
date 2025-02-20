@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Saiyan-Sans;
+    src: url(../fonts/Saiyan-Sans.ttf);
+}
+
 body 
 {
     background-image: url(../media/fondo2.jpg); 
@@ -12,29 +17,78 @@ body
     to { opacity: 1; transform: scale(1); }
 }
 
-#pedidico:hover, #plantadico:hover {
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#pedidico:hover{
     scale: 1.2;
     transition-duration: 0.5s;
+  
+
+} 
+#plantadico:hover{
+    scale: 1.2;
+    transition-duration: 0.5s;
+    
+
+} 
+#reiniciar:hover {
+
+    scale: 1.2;
+    transition-duration: 0.5s;
+    animation: girar 0.5s linear infinite;
+    background-color: #ffa537;
 }
 
 
+
 #cartastapete img {
+
     animation: cartasaparicion 0.4s;
     margin-left: 5px;
     margin-right: 5px; 
     box-shadow: 0 4px 8px #0000004d; 
+
 }
 button {
+
     padding: 0;
-    margin: 10px; 
+    margin-top: 0; 
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
     width: 100px; 
     height: 50px; 
     border-radius: 200px;
     transition-duration: 0.5s;
 }
 
+#reiniciar{
+
+
+    width: 50px;
+    height: 50px;
+    background-color: #f59725;
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 50%;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    
+    
+}
+
 #pedidico{
+
    background-color: #4dff00;
+  
 }
 
 #pedidico:disabled {
@@ -44,6 +98,7 @@ button {
 
 #plantadico {
     background-color: #ff0011;
+   
 }
 
 #plantadico:disabled {
@@ -54,7 +109,7 @@ button {
 header
 {
 
-    font-family: 'Saiyan Sans', Arial, sans-serif;
+    font-family: Saiyan-Sans, Arial, sans-serif;
     font-size: 28pt;
     color: #ffea00;
     text-align: center;
@@ -66,25 +121,27 @@ header
 }
 
 #resultusuarito, #resultmaquinita {
-    font-family: 'Saiyan Sans', Arial, sans-serif;
+    font-family: Saiyan-Sans, Arial, sans-serif;
     color: #ffea00;
     font-size: 18pt; 
-    margin: 20px 0;
+    letter-spacing: 3pt;
+    margin: 18px 0;
     padding: 10px;
     display: inline-block;
 }
 #jueguecico {
 
     text-align: center;
-    padding: 0px;
+    padding: 0;
     
 }
 
 #mensaje {
-    font-family: 'Saiyan Sans', Arial, sans-serif;
+    font-family: Saiyan-Sans, Arial, sans-serif;
     font-weight: lighter;
     margin-top: -20px;
     color: #ffea00;
+    letter-spacing: 3pt;
     font-size: 25pt; 
     text-align: center;
     max-width: 100%;
