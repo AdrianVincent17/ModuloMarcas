@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="styles.css" type="text/css"?>
+<!--
+<!DOCTYPE marcadores [
+    <!ELEMENT marcadores (pagina)*>
+    <!ELEMENT pagina (nombre, descripcion, url)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT url (#PCDATA)>
+]>
+-->
+
+<marcadores>
+    <pagina>
+        <nombre></nombre>
+        <descripcion></descripcion>
+        <url></url>
+    </pagina>
+<pagina>
+    <nombre></nombre>
+    <descripcion></descripcion>
+    <url></url>
+
+</pagina>
+
+</marcadores>
