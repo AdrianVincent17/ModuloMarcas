@@ -1,27 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-stylesheet href="styles.css" type="text/css"?>
-<!--
-<!DOCTYPE marcadores [
-    <!ELEMENT marcadores (pagina)*>
-    <!ELEMENT pagina (nombre, descripcion, url)>
-    <!ELEMENT nombre (#PCDATA)>
-    <!ELEMENT descripcion (#PCDATA)>
-    <!ELEMENT url (#PCDATA)>
-]>
--->
+<pais>
+    <nombre>Argentina</nombre>
+    <provincia>
+        <nombre>Buenos Aires</nombre>
+        <ciudad>
+            <nombre>La Plata</nombre>
+            <barrio>
+                <nombre>Centro</nombre>
+                <calle>
+                    <nombre>7</nombre>
+                    <numero>777</numero>
+                </calle>
+            </barrio>
+        </ciudad>
+    </provincia>
+</pais>
 
-<marcadores>
-    <pagina>
-        <nombre></nombre>
-        <descripcion></descripcion>
-        <url></url>
-    </pagina>
-<pagina>
-    <nombre></nombre>
-    <descripcion></descripcion>
-    <url></url>
+<prefijo>
+    <codigo>54</codigo>
+    <pais>Argentina</pais>  
+</prefijo>
 
-</pagina>
+<telefono>
+    <numero>221 777-7777</numero>
+    <prefijo>54</prefijo>
 
-</marcadores>
+</telefono>
+
+<privincia>
+    <nombre>Buenos Aires</nombre>
+    <codigo>221</codigo>    
+</privincia>
