@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<XMI verified="false" xmi.version="1.2" timestamp="2025-05-07T13:50:57" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
+<XMI verified="false" xmi.version="1.2" timestamp="2025-05-12T13:34:58" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
  <XMI.header>
   <XMI.documentation>
    <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
@@ -97,7 +97,7 @@
      </UML:Namespace.ownedElement>
      <XMI.extension xmi.extender="umbrello">
       <diagrams resolution="96">
-       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="diagrama de clases" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="249" canvaswidth="735.783" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="115" xmi.id="uyyLEslnlfJqQ" documentation="" showscope="1" snapgrid="0" showatts="1" type="1">
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="diagrama de clases" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="249" canvaswidth="735.783" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="148.12" xmi.id="uyyLEslnlfJqQ" documentation="" showscope="1" snapgrid="0" showatts="1" type="1">
         <widgets>
          <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-185" showattsigs="601" showstereotype="1" y="-265" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uc64lcaHhuveQ" width="159" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="u9IsuHmMcl9hg" autoresize="1" showscope="1" height="67" showopsigs="601"/>
          <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="81" showattsigs="601" showstereotype="1" y="-68" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uM6QUZsLQ7soH" width="134" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uzw093YH3ysKo" autoresize="1" showscope="1" height="52" showopsigs="601"/>
@@ -156,7 +156,7 @@
   </UML:Model>
  </XMI.content>
  <XMI.extensions xmi.extender="umbrello">
-  <docsettings viewid="uyyLEslnlfJqQ" uniqueid="uwMz1SJR0x5go" documentation=""/>
+  <docsettings viewid="uyyLEslnlfJqQ" uniqueid="uxTon2dS6giRm" documentation=""/>
   <listview>
    <listitem open="1" type="800" id="Views">
     <listitem open="1" type="836" id="Entity_Relationship_Model"/>
