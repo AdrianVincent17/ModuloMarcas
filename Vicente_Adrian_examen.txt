@@ -1,0 +1,56 @@
+XPATH
+
+1.1 titulos de todos los juegos
+//titulo
+
+1.2 id de todos los juegos
+//@id
+
+1.3 genero del juego league of legends
+//juego/titulo[.="League of Legends"]/../genero
+
+1.4 Años de lanzamiento de todos los juegos
+
+
+1.5 titulos de juegos lanzados en 2020
+//lanzamiento[@año="2020"]/../titulo
+
+1.6 titulos de juegos que se publican en playstation
+//plataforma[.="PlayStation"]/../../titulo
+
+
+1.7titulos de juegos que tienen al menos un premio 
+
+1.8titulos de juegos con ide que empiez por TLOU
+
+1.9 elemento juego completo cuyo genero sea MMORPG
+//juego[genero="MMORPG"]
+
+
+XQUERY
+
+1.1 titulo de todas las peliculas 
+for $a in doc("peliculas_scifi.xml")//titulo
+return $a
+
+1.2 cadena id-titulo para cada pelicula
+
+1.3 duracion media de las peliculas de cada director
+
+
+1.4 titulos de pliculas con presupuesto 20000000
+for $a in doc("peliculas_scifi.xml")//pelicula
+where $a/presupuesto<20000000
+return $a/titulo
+
+1.5 numero de peliculas que tienen al menos un premio
+let $a:= doc("peliculas_scifi.xml")//pelicula
+where count($a/premios)>=1
+return count($a/premios) 
+
+1.6 titulos de las peliculas con duracion > 150 ordenadas por presupuesto descendente
+
+1.7 estudios con al menos una pelicula estrenada en 2021
+for $a in doc("peliculas_scifi.xml")//pelicula
+where $a/lanzamiento/@año=2021 and count($a)>=1
+return $a/estudio/text()
