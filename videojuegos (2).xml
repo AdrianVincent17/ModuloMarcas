@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+  <juegos>
+    <juego id="WOW">
+      <titulo>World of Warcraft</titulo>
+      <genero>MMORPG</genero>
+      <lanzamiento año="2004"/>
+      <plataformas>
+        <plataforma>PC</plataforma>
+      </plataformas>
+      <expansiones>
+        <expansion id="WOW-DF">
+          <nombre>Dragonflight</nombre>
+          <año>2022</año>
+        </expansion>
+        <expansion id="WOW-SL">
+          <nombre>Shadowlands</nombre>
+          <año>2020</año>
+        </expansion>
+      </expansiones>
+    </juego>
+
+    <juego id="LOL">
+      <titulo>League of Legends</titulo>
+      <genero>MOBA</genero>
+      <lanzamiento año="2009"/>
+      <plataformas>
+        <plataforma>PC</plataforma>
+      </plataformas>
+      <modos>
+        <modo>Summoner's Rift</modo>
+        <modo>ARAM</modo>
+      </modos>
+    </juego>
+
+    <juego id="TLOU1">
+      <titulo>The Last of Us Part I</titulo>
+      <genero>Acción-aventura</genero>
+      <lanzamiento año="2013"/>
+      <plataformas>
+        <plataforma>PlayStation</plataforma>
+        <plataforma>PC</plataforma>
+      </plataformas>
+      <premios>
+        <premio>Game of the Year 2013</premio>
+      </premios>
+    </juego>
+
+    <juego id="TLOU2">
+      <titulo>The Last of Us Part II</titulo>
+      <genero>Acción-aventura</genero>
+      <lanzamiento año="2020"/>
+      <plataformas>
+        <plataforma>PlayStation</plataforma>
+      </plataformas>
+      <premios>
+        <premio>Game of the Year 2020</premio>
+        <premio>Best Narrative 2020</premio>
+      </premios>
+    </juego>
+
+    <juego id="VAL">
+      <titulo>Valorant</titulo>
+      <genero>FPS</genero>
+      <lanzamiento año="2020"/>
+      <plataformas>
+        <plataforma>PC</plataforma>
+      </plataformas>
+    </juego>
+  </juegos>
+</catalogo>

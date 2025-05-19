@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filmoteca>
+  <pelicula id="ALIEN">
+    <titulo>Alien</titulo>
+    <director>Ridley Scott</director>
+    <genero>Ciencia Ficción</genero>
+    <lanzamiento año="1979"/>
+    <duracion minutos="117"/>
+    <estudio>20th Century Fox</estudio>
+    <presupuesto moneda="USD">11000000</presupuesto>
+    <recaudacion moneda="USD">104900000</recaudacion>
+    <formato>Cines</formato>
+    <reparto>
+      <actor>Sigourney Weaver</actor>
+      <actor>Tom Skerritt</actor>
+    </reparto>
+    <premios>
+      <premio>Mejores Efectos Visuales 1980</premio>
+    </premios>
+  </pelicula>
+
+  <pelicula id="BLADE">
+    <titulo>Blade Runner</titulo>
+    <director>Ridley Scott</director>
+    <genero>Ciencia Ficción</genero>
+    <lanzamiento año="1982"/>
+    <duracion minutos="118"/>
+    <estudio>Warner Bros.</estudio>
+    <presupuesto moneda="USD">28000000</presupuesto>
+    <recaudacion moneda="USD">41700000</recaudacion>
+    <formato>Cines y Streaming</formato>
+    <reparto>
+      <actor>Harrison Ford</actor>
+      <actor>Rutger Hauer</actor>
+    </reparto>
+  </pelicula>
+
+  <pelicula id="MATRIX">
+    <titulo>The Matrix</titulo>
+    <director>Lana Wachowski</director>
+    <genero>Ciencia Ficción</genero>
+    <lanzamiento año="1999"/>
+    <duracion minutos="136"/>
+    <estudio>Warner Bros.</estudio>
+    <presupuesto moneda="USD">63000000</presupuesto>
+    <recaudacion moneda="USD">467200000</recaudacion>
+    <formato>Cines</formato>
+    <reparto>
+      <actor>Keanu Reeves</actor>
+      <actor>Carrie-Anne Moss</actor>
+    </reparto>
+    <premios>
+      <premio>Oscar Mejores Efectos Visuales 2000</premio>
+    </premios>
+  </pelicula>
+
+  <pelicula id="AVATAR">
+    <titulo>Avatar</titulo>
+    <director>James Cameron</director>
+    <genero>Ciencia Ficción</genero>
+    <lanzamiento año="2009"/>
+    <duracion minutos="162"/>
+    <estudio>20th Century Fox</estudio>
+    <presupuesto moneda="USD">237000000</presupuesto>
+    <recaudacion moneda="USD">2924000000</recaudacion>
+    <formato>Cines y Streaming</formato>
+    <reparto>
+      <actor>Sam Worthington</actor>
+      <actor>Zoe Saldaña</actor>
+    </reparto>
+    <premios>
+      <premio>Oscar Mejores Efectos Visuales 2010</premio>
+    </premios>
+  </pelicula>
+
+  <pelicula id="INTERST">
+    <titulo>Interstellar</titulo>
+    <director>Christopher Nolan</director>
+    <genero>Ciencia Ficción</genero>
+    <lanzamiento año="2014"/>
+    <duracion minutos="169"/>
+    <estudio>Paramount</estudio>
+    <presupuesto moneda="USD">165000000</presupuesto>
+    <recaudacion moneda="USD">701000000</recaudacion>
+    <formato>Cines</formato>
+    <reparto>
+      <actor>Matthew McConaughey</actor>
+      <actor>Anne Hathaway</actor>
+    </reparto>
+    <premios>
+      <premio>Oscar Mejores Efectos Visuales 2015</premio>
+    </premios>
+  </pelicula>
+
+  <pelicula id="EXMAC">
+    <titulo>Ex Machina</titulo>
+    <director>Alex Garland</director>
+    <genero>Ciencia Ficción</genero>
+    <lanzamiento año="2014"/>
+    <duracion minutos="108"/>
+    <estudio>A24</estudio>
+    <presupuesto moneda="USD">15000000</presupuesto>
+    <recaudacion moneda="USD">36800000</recaudacion>
+    <formato>Streaming</formato>
+    <reparto>
+      <actor>Alicia Vikander</actor>
+      <actor>Oscar Isaac</actor>
+    </reparto>
+    <premios>
+      <premio>Oscar Mejores Efectos Visuales 2016</premio>
+    </premios>
+  </pelicula>
+
+  <pelicula id="DUNE">
+    <titulo>Dune</titulo>
+    <director>Denis Villeneuve</director>
+    <genero>Ciencia Ficción</genero>
+    <lanzamiento año="2021"/>
+    <duracion minutos="155"/>
+    <estudio>Legendary Pictures</estudio>
+    <presupuesto moneda="USD">165000000</presupuesto>
+    <recaudacion moneda="USD">402000000</recaudacion>
+    <formato>Cines y Streaming</formato>
+    <reparto>
+      <actor>Timothée Chalamet</actor>
+      <actor>Zendaya</actor>
+    </reparto>
+    <premios>
+      <premio>Oscar Mejor Banda Sonora 2022</premio>
+    </premios>
+  </pelicula>
+
+  <pelicula id="MOON">
+    <titulo>Moon</titulo>
+    <director>Duncan Jones</director>
+    <genero>Ciencia Ficción</genero>
+    <lanzamiento año="2009"/>
+    <duracion minutos="97"/>
+    <estudio>Stage 6 Films</estudio>
+    <presupuesto moneda="USD">5000000</presupuesto>
+    <recaudacion moneda="USD">10000000</recaudacion>
+    <formato>Cines</formato>
+    <reparto>
+      <actor>Sam Rockwell</actor>
+    </reparto>
+  </pelicula>
+</filmoteca>
